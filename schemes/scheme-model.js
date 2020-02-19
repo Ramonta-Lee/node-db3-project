@@ -11,7 +11,7 @@ module.exports = {
 };
 
 function add(scheme) {
-  return db("schemes").insert(scheme, "id")
+  return db("schemes").insert(scheme, "id");
 }
 
 function addStep(step, id) {
